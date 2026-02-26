@@ -4,9 +4,10 @@
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
 ## Team Rhythm
-- Daily standups (15 min) — focus on progress, blockers, dependencies
-- Weekly delivery sync — show progress, updates, and flagged risks
-- Demo/Review at the end of each sprint or milestone
+- Daily standups (15 min) facilitated by the **Scrum Master** — focus on progress, blockers, dependencies
+- Weekly delivery sync — PM, PdM, Scrum Master review progress, updates, and flagged risks
+- Demo/Review at the end of each sprint or milestone (all team roles participate)
+- Post-release support review — **Support Lead** shares feedback and bug trends with Product Manager
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
@@ -29,12 +30,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
+- Level 1: Team-level triage in daily standup (Scrum Master facilitates)
+- Level 2: PM escalates to Product Lead and dependent teams; DevOps Engineer engaged for infrastructure blockers
 - Level 3: Sponsor-level escalation for business-impacting issues
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] CI configured for tests and lint (DevOps Engineer)
+- [ ] Regular demos scheduled (Scrum Master coordinates)
+- [ ] Risk register updated weekly (PM and Scrum Master)
+- [ ] UX sign-off completed for features with user-facing changes
+- [ ] DevOps deployment runbook reviewed before release
+- [ ] Support Lead notified of release contents and known issues

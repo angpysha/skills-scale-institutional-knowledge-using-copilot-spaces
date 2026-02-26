@@ -16,9 +16,23 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Scrum Master: facilitates agile ceremonies, removes blockers, coaches the team.
 - Developers: implement features, collaborate on design and testability.
+- UX Designer: shapes user experience, creates wireframes and prototypes.
+- DevOps Engineer: manages CI/CD pipelines, infrastructure, and deployment automation.
+- Business Analyst: gathers and documents requirements, bridges business and delivery teams.
 - QA/Testing: validate quality and acceptance criteria.
+- Support Lead: owns post-release customer support and feeds user feedback to the product team.
 - Stakeholders: provide inputs and approvals.
+
+## Cross-Role Collaboration
+Effective project delivery requires clear ownership and regular touchpoints between roles:
+- The **Product Manager** and **Business Analyst** collaborate to ensure requirements are clearly defined and traceable to business goals before development begins.
+- The **Scrum Master** and **Project Manager** align on sprint cadence, release timelines, and cross-team dependency escalation.
+- The **UX Designer** works with the **Product Manager** to define acceptance criteria that include usability standards, and with **Developers** to review implementation before QA.
+- The **DevOps Engineer** coordinates with the **Project Manager** on release windows and with **Developers** on environment and pipeline requirements.
+- The **Support Lead** surfaces aggregated feedback and bug trends to the **Product Manager** after each release, informing future backlog priorities.
+- **QA/Testing** collaborates with the **UX Designer**, **DevOps Engineer**, and **Support Lead** to ensure issues found post-release are reproducible and resolved efficiently.
 
 ## Key Artifacts
 - Project Charter / One-pager
